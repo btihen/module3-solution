@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.navbar {
+  border: 1px;
+  border-radius: 0px;
+  border-style: solid;
+  background-color: #ccc;
+}
+.navbar-brand {
+  margin: 0px;
+  display: inline-block;
+  vertical-align: center;
+}
+.navbar-brand h1 {
+  margin: 0px;
+  color: black;
+  font-size: 120%;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+#collapsable-nav {
+  margin: 0px;
+  padding: 0px;
+}
+#nav-list {
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-color: #eee;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+.content {
+  width: 100%;
+}
+.menu-item {
+  background-color: #ccc;
+}
+.menu-item h3 {
+  padding-top: 10px;
+}
+.menu-item p {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .navbar-nav>li>a {
+    display: none;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-nav>li>a {
+    display: none;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-nav>li>a {
+    display: none;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .navbar-nav>li {
+    border-bottom: 1px solid #000;
+  }
+  .navbar-nav>li>a {
+    display: block;
+  }
+}
