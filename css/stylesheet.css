@@ -43,6 +43,8 @@ body {
 }
 .content {
   width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .menu-item {
   background-color: #ccc;
