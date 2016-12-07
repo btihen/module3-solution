@@ -57,34 +57,3 @@ body {
   padding-right: 15px;
   padding-bottom: 15px;
 }
-
-/********** Large devices only **********/
-@media (min-width: 1200px) {
-  .navbar-nav>li>a {
-    display: none;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .navbar-nav>li>a {
-    display: none;
-  }
-}
-
-/********** Small devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .navbar-nav>li>a {
-    display: none;
-  }
-}
-
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  .navbar-nav>li {
-    border-bottom: 1px solid #000;
-  }
-  .navbar-nav>li>a {
-    display: block;
-  }
-}
